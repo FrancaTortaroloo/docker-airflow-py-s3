@@ -14,7 +14,7 @@ Tecnologías usadas:
 
 Hemos creado un container en Docker donde tiene el sistema operativo de Ubuntu y necesitábamos 2 núcleos para trabajar con Airflow.
 
-![Imagen de Docker](https://github.com/FrancaTortaroloo/docker-airflow-py-s3/tree/main/Images)
+![Imagen de Docker](https://github.com/FrancaTortaroloo/docker-airflow-py-s3/blob/main/Images/Container%20Docker.png)
 
 ## Segundo paso: Creación del enviroment de Python e instalación de Airflow en Ubuntu
 
