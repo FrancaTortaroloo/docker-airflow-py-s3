@@ -23,8 +23,7 @@ Creamos un enviroment de Python e instalamos Airflow en Ubuntu.
 ![Imagen Airflow en Docker](https://github.com/FrancaTortaroloo/docker-airflow-py-s3/blob/main/Images/Airflow%20en%20Docker.png)
 
 ## Tercer paso: Escribir el código de ETL en Python
-
-Esto se puede ver en el archivo .py que se encuentra en el repositorio(https://github.com/FrancaTortaroloo/docker-airflow-py-s3/blob/main/weather_dag.py)
+Se hizo la conexción de VS Code al contenedor de Ubuntu en Docker. El código del ETL se puede ver en el archivo .py que se encuentra en el repositorio(https://github.com/FrancaTortaroloo/docker-airflow-py-s3/blob/main/weather_dag.py)
 
 ## Cuarto paso: Extraer las credenciales de la API de OpenWeather
 
