@@ -1,5 +1,49 @@
 # Weather api
 
+In this project, together with [Nahuel Nuñez Rojas](https://github.com/nahuel-nunez-rojas), we have developed an ETL project.
+
+Technologies used:
+
+📍 Docker\
+📍 Apache Airflow\
+📍 OpenWeather API\
+📍 Python in VS Code\
+📍 Amazon S3
+
+## First step: Creating the Docker container
+
+We created a Docker container with the Ubuntu operating system and required 2 cores to work with Airflow.
+
+![Imagen de Docker](https://github.com/FrancaTortaroloo/docker-airflow-py-s3/blob/main/Images/Container%20Docker.png)
+
+## Second step: Setting up the Python environment and installing Airflow on Ubuntu
+
+We created a Python environment and installed Airflow on Ubuntu.
+
+![Imagen Airflow en Docker](https://github.com/FrancaTortaroloo/docker-airflow-py-s3/blob/main/Images/Airflow%20en%20Docker.png)
+
+## Third step: Writing the ETL code in Python
+
+VS Code was connected to the Ubuntu container in Docker. The ETL code can be found in the .py file in the repository: [weather_dag.py]((https://github.com/FrancaTortaroloo/docker-airflow-py-s3/blob/main/weather_dag.py))
+
+## Fourth step: Extracting the OpenWeather API credentials
+
+This allows us to make API calls and extract weather data from the city of Málaga, including weather description, temperature, thermal sensation, maximum and minimum temperature, atmospheric pressure, humidity, wind speed, date, sunrise time, and sunset time.
+
+![Imagen OpenWeather](https://github.com/FrancaTortaroloo/docker-airflow-py-s3/blob/main/Images/OpenWeather.png)
+
+## Fifth step: Orchestrating the ETL process in Apache Airflow
+
+![Imagen ETL en Airflow](https://github.com/FrancaTortaroloo/docker-airflow-py-s3/blob/main/Images/ETL%20en%20airflow.png) 
+
+## Sixth step: Creating an S3 bucket
+
+An S3 bucket was created, along with credentials, to enable saving the CSV file in the bucket from Python.
+
+![Imagen bucket S3](https://github.com/FrancaTortaroloo/docker-airflow-py-s3/blob/main/Images/Bucket%20s3.png)
+
+------
+
 En este proyecto en conjunto con [Nahuel Nuñez Rojas](https://github.com/nahuel-nunez-rojas), hemos hecho un proyecto de ETL.
 
 Tecnologías usadas:
